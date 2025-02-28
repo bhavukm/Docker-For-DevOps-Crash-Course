@@ -1,5 +1,5 @@
 # Docker-For-DevOps-Crash-Course
-Docker-For-DevOps-Crash-Course
+Docker-For-DevOps-Crash-Course Part 1: https://youtu.be/onF8QS9DMQA
 
 Official documentation: https://docs.docker.com/
 
