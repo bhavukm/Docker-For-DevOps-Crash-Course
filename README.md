@@ -25,7 +25,7 @@ Deploying an application without Docker:
 
 Deploying an application with Docker:
 
-![image](https://github.com/user-attachments/assets/0d14568a-b11a-4007-926a-349bba4a9bfb)
+![image](https://github.com/user-attachments/assets/ad830e30-7418-4bec-af69-efa294c89da1)
 
 Install and Configure Docker on AWS EC2 Instance with Ubuntu 24.04 LTS:
 
