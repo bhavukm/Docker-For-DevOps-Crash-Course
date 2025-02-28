@@ -23,8 +23,6 @@ Deploying an application without Docker:
 
 ![image](https://github.com/user-attachments/assets/2332fdb1-fbca-4e07-9d9f-4feaa553c77c)
 
-![image](https://github.com/user-attachments/assets/e4a49fc9-b17d-488c-8d3e-f2bde1ae70c5)
-
 Deploying an application with Docker:
 
 ![image](https://github.com/user-attachments/assets/0d14568a-b11a-4007-926a-349bba4a9bfb)
