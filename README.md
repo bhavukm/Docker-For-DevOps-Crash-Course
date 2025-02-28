@@ -31,7 +31,7 @@ Install and Configure Docker on AWS EC2 Instance with Ubuntu 24.04 LTS:
 
  https://docs.docker.com/engine/install/ubuntu/
 
-# Installation guide is attached in the repo
+Docker Installation guide on AWS EC2 Instance with Ubuntu 24.04 LTS is also attached in the repo
 
 # Most commonly used docker commands:
 
