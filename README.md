@@ -35,4 +35,4 @@ Docker Installation guide on AWS EC2 Instance with Ubuntu 24.04 LTS is also atta
 
 # Most commonly used docker commands:
 
-Please find the PDF attached in the repo
+Please find the PPT attached in the repo
