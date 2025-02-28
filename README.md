@@ -31,67 +31,8 @@ Install and Configure Docker on AWS EC2 Instance with Ubuntu 24.04 LTS:
 
  https://docs.docker.com/engine/install/ubuntu/
 
-Follow the below commands in sequence:
-
-# Run the following command to uninstall all conflicting packages:
-
-for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
-
-# Set up Docker's apt repository.
-
-# Add Docker's official GPG key:
-
-sudo apt-get update
-
-sudo apt-get install ca-certificates curl
-
-sudo install -m 0755 -d /etc/apt/keyrings
-
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-
-sudo chmod a+r /etc/apt/keyrings/docker.asc
-
-# Add the repository to Apt sources:
-
-echo \
-
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  
-  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
-  
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-  
-sudo apt-get update
-
-# To install the latest docker version, run:
-
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-
-# Verify that the installation is successful by running the hello-world image:
-
-sudo docker run hello-world
-
-# Check docker service status
-
-sudo systemctl status docker
-
-# Add the current user (ubuntu in my case) to docker user group
-
-sudo usermod -aG docker ubuntu
-
-# Run jenkins as a Docker Container
-
-docker run -d -p 8080:8080 --restart=on-failure jenkins/jenkins:lts-jdk17
-
-# Retrieve the initial password to login to jenkins UI on http://public-ip-of-ec2-instance:8080
-
-docker exec container-id cat /var/jenkins_home/secrets/initialAdminPassword
+# Installation guide is attached in the repo
 
 # Most commonly used docker commands:
 
 Please find the PDF attached in the repo
-
-
-
-
-
